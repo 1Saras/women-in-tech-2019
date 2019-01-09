@@ -1,0 +1,223 @@
+/******************* NAV BAR ********************/
+
+a.nav-link {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+ a.navbar-brand {
+  font-size: 22px;
+ }
+
+
+
+/******************** HOME PAGE *******************/
+
+.homepagename1, .homepagename2, .homepagename3 {
+  margin:20px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.homepageh1 {
+text-align: center;
+margin: 15px 0px 1px 0px;
+font-size: 38px;
+}
+
+.homepagepic img {
+max-width: 100%;
+}
+
+.homepagename1 {
+ color: #FF1493;
+}
+
+.homepagename2 {
+ color: teal;
+}
+
+.homepagename3 {
+ color: tomato;
+}
+
+.two-images {
+  position: relative;
+}
+
+.top-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.two-images:hover .top-img { opacity: 0; }
+
+
+@media screen and (max-width: 1200px) {
+  .homepagepic img{
+    width: 340px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .homepagepic img {
+    width: 300px;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .homepagename1, .homepagename2, .homepagename3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.homepageh1 {
+  font-size: 30px
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+.homepagepic img {
+    width: 260px;
+    margin-left: 125px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homepagename1, .homepagename2, .homepagename3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+.homepageh1 {
+  font-size: 28px;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+.homepagepic img {
+    width: 230px;
+    margin-left: 135px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+.homepagename1, .homepagename2, .homepagename3 {
+  font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+.homepageh1 {
+  font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width: 510px) {
+.homepagepic img {
+    width: 230px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+.homepagename1, .homepagename2, .homepagename3 {
+  font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+.homepageh1 {
+  font-size: 24px;
+  }
+}
+
+
+
+@media screen and (max-width: 466px) {
+.homepagepic img {
+    width: 205px;
+    margin-left: 110px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+.homepagename1, .homepagename2, .homepagename3 {
+  font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+.homepageh1 {
+  font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 445px) {
+.homepagepic img {
+    width: 205px;
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+.homepagename1, .homepagename2, .homepagename3 {
+  font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+.homepageh1 {
+  font-size: 22px;
+  }
+}
+
+
+
+
+/********************* BIO PAGES ******************/
+img {
+width: 400px;
+padding-bottom: 10px;
+}
+
+#quotes {
+  background-color: blue;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+#long-bio .row {
+  margin: 30px 0;
+}
+
+#short-bio-and-img-section p {
+text-align: center;
+}
+
+.short-bio-h2 {
+ font-size: 35px;
+ text-align: center;
+}
+
+.long-bio-h2 {
+font-size: 35px;
+width: 100%;
+}
